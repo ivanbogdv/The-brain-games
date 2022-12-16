@@ -1,5 +1,2 @@
-const randomNumbers = () => {
-  Math.floor(Math.random() * 5);
-};
-
+const randomNumbers = (max) => Math.floor(Math.random() * max);
 export default randomNumbers;
