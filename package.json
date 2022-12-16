@@ -9,7 +9,9 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "index": "scr/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
   },
   "homepage": "https://github.com/ivanbogdv/frontend-project-44#readme",
   "dependencies": {
+    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "github:anseki/readline-sync"
   },
   "devDependencies": {
