@@ -5,22 +5,22 @@ import generalGameLogic from '../index.js'; // general game logic from index.js
 const rules = 'Find the greatest common divisor of given numbers.';
 
 // GCD count function
-const gcdCount = (num1, num2) => {
-  while (num1 !== num2) {
-    if (num1 > num2) {
-      num1 -= num2;
+const gcdCount = (number1, number2) => {
+  while (number1 !== number2) {
+    if (number1 > number2) {
+      number1 -= number2;
     } else {
-      num2 -= num1;
+      number2 -= number1;
     }
   }
-  return num1;
+  return number1;
 };
 
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber1 = randomNumbers(10);
-  const randomNumber2 = randomNumbers(10);
+  const randomNumber1 = randomNumbers(20);
+  const randomNumber2 = randomNumbers(20);
 
   // task
   const task = `${randomNumber1} ${randomNumber2}`;
