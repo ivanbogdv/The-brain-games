@@ -13,30 +13,26 @@ const randomArr = (startNumber, step, length) => {
     arr.push(number);
     number += step;
   }
-  return String(arr);
+  return arr;
 };
 
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const startNumber = randomNumbers(90);
+  const startNumber = randomNumbers(100);
   const step = randomNumbers(5);
   const length = 10;
 
-  // task
   const arrNumbers = randomArr(startNumber, step, length);
   const skipNumber = randomNumbers(arrNumbers.length);
-  
-  // arrNumbers[skipNumber] = '..';
-  // const task = `${arrNumbers.join(' ')}`;
-  const task = `${arrNumbers}`;
-
-  
-  console.log(skipNumber);
-  // answer
 
   // const correctAnswer
-  const correctAnswer = String(skipNumber);
+  const correctAnswer = String(arrNumbers[skipNumber]);
+  arrNumbers[skipNumber] = '..';
+
+  // task
+  const task = arrNumbers.join(' ');
+
   return [task, correctAnswer];
 };
 
