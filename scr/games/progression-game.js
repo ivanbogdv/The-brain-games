@@ -19,18 +19,24 @@ const randomArr = (startNumber, step, length) => {
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const start = randomNumbers(90);
-  const stepSize = randomNumbers(5);
-  const lengthSize = randomNumbers(10);
+  const startNumber = randomNumbers(90);
+  const step = randomNumbers(5);
+  const length = 10;
 
   // task
-  const task = randomArr((start, stepSize, lengthSize));
+  const arrNumbers = randomArr(startNumber, step, length);
+  const skipNumber = randomNumbers(arrNumbers.length);
+  
+  // arrNumbers[skipNumber] = '..';
+  // const task = `${arrNumbers.join(' ')}`;
+  const task = `${arrNumbers}`;
 
+  
+  console.log(skipNumber);
   // answer
-  const missingNumber = String(randomNumbers(90));
 
   // const correctAnswer
-  const correctAnswer = String(missingNumber);
+  const correctAnswer = String(skipNumber);
   return [task, correctAnswer];
 };
 
