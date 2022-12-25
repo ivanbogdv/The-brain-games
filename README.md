@@ -3,49 +3,39 @@
 
 <a href="https://codeclimate.com/github/ivanbogdv/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/03eeaced7a70793572b4/maintainability" /></a>
 
-<h1 align ="center">Welcome to the Brain Games!</h1>
+#Welcome to the Brain Games!
 
-<h2>Description</h2>
-<p>Ready for some brain games?</p>
-<p>Five fascinating games await you. It won't be easy.</p>
+#Description
+Ready for some brain games?
+Five fascinating games await you. It won't be easy.
 
-<h2>Instructions</h2>
-<p>You need a console to play games.</p>
-<p>Just type in the name of the game you want:</p>
-<ul>
-  <li>
-  <p>Brain-prime</p>
-  </li>
-  <li>
-  <p>Brain-even</p>
-  </li>
-    <li>
-  <p>Brain-progression</p>
-  </li>
-    <li>
-  <p>Brain-gcd</p>
-  </li>
-    <li>
-  <p>Brain-calc</p>
-  </li>
-</ul>
+    Instructions
+    You need a console to play games.
+    Just type in the name of the game you want:
 
-<h2 align = "center">Brain-prime</h2>
++ Brain-prime
++ Brain-even
++ Brain-progression
++ Brain-gcd
++ Brain-calc
+
+
+###Brain-prime
 
 [![asciicast](https://asciinema.org/a/7RZ8HBkijh2EpLM3LU3QFex6F.svg)](https://asciinema.org/a/7RZ8HBkijh2EpLM3LU3QFex6F)
 
-<h2 align = "center">Brain-even</h2>
+###Brain-even
 
 [![asciicast](https://asciinema.org/a/c2oGCrKgIYIEiwh5mRoxB3EfL.svg)](https://asciinema.org/a/c2oGCrKgIYIEiwh5mRoxB3EfL)
 
-<h2 align = "center">Brain-progression</h2>
+###Brain-progression
 
 [![asciicast](https://asciinema.org/a/OweRzKP8mlvvqdPnn66n9lVjJ.svg)](https://asciinema.org/a/OweRzKP8mlvvqdPnn66n9lVjJ)
 
-<h2 align = "center">Brain-gcd</h2>
+###Brain-gcd
 
 [![asciicast](https://asciinema.org/a/qY5gyLl46qiJJjhz2nG6KWI7A.svg)](https://asciinema.org/a/qY5gyLl46qiJJjhz2nG6KWI7A)
 
-<h2 align = "center">Brain-calc</h2>
+###Brain-calc
 
 [![asciicast](https://asciinema.org/a/J6M5odzwkinZF3DQCqrnp5qEf.svg)](https://asciinema.org/a/J6M5odzwkinZF3DQCqrnp5qEf)
