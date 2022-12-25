@@ -3,7 +3,8 @@
 
 <a href="https://codeclimate.com/github/ivanbogdv/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/03eeaced7a70793572b4/maintainability" /></a>
 
-<h1 align ="center">Welcome to the Brain Games!</h1>
+Welcome to the Brain Games!
+========================
 
 <h2>Description</h2>
 <p>Ready for some brain games?</p>
