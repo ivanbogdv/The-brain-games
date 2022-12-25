@@ -18,7 +18,8 @@ Just type in the name of the game you want:
 + Brain-progression
 + Brain-gcd
 + Brain-calc
-+ Brain-prime
+
+### Brain-prime
 
 [![asciicast](https://asciinema.org/a/7RZ8HBkijh2EpLM3LU3QFex6F.svg)](https://asciinema.org/a/7RZ8HBkijh2EpLM3LU3QFex6F)
 
