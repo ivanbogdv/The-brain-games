@@ -3,9 +3,9 @@
 
 <a href="https://codeclimate.com/github/ivanbogdv/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/03eeaced7a70793572b4/maintainability" /></a>
 
-#Welcome to the Brain Games!
+# Welcome to the Brain Games!
 
-#Description
+# Description
 Ready for some brain games?
 Five fascinating games await you. It won't be easy.
 
