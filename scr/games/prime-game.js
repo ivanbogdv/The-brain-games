@@ -2,25 +2,32 @@ import randomNumbers from '../random_numbers.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
 // rules of game
-const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
+const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber = randomNumbers(20);
+  const randomNumber = randomNumbers(100);
 
   // task
   const task = `${randomNumber}`;
 
   // check
-  const evenNumber = () => (randomNumber % 2 === 0);
+  const primeCount = () => {
+    const num = randomNumber;
+    for (let i = 2; i < num; i += 1) {
+      if (num % i === 0) {
+        return 'no';
+      }
+    }
+    return 'yes';
+  };
 
   // answer
-  const correctAnswer = evenNumber(randomNumber) ? 'yes' : 'no';
+  const correctAnswer = primeCount(randomNumber);
 
   return [task, correctAnswer];
 };
-
 // export general game logic from index.js
 export default () => {
   generalGameLogic(rules, taskAndAnswer);

@@ -17,7 +17,7 @@ const taskAndAnswer = () => {
   // task
   const task = `${randomNumber1} ${randomExpressionSign} ${randomNumber2}`;
 
-  // answer
+  // check
   let result = 0;
   switch (randomExpressionSign) {
     case '+':
@@ -32,6 +32,7 @@ const taskAndAnswer = () => {
     default:
       console.log('error');
   }
+  // answer
   const correctAnswer = String(result);
 
   return [task, correctAnswer];

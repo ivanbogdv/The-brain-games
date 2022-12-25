@@ -6,14 +6,15 @@ const generalGameLogic = (rules, taskAndAnswer) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
+
   // rules of game
   console.log(rules);
 
   // game cycle
   for (let i = 1; i <= 3; i += 1) {
     const [task, correctAnswer] = taskAndAnswer();
-
     console.log(`Question: ${task}`);
+
     // user's answer
     const answerOfUser = readlineSync.question('Your answer: ');
 

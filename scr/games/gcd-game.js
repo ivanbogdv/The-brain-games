@@ -4,7 +4,7 @@ import generalGameLogic from '../index.js'; // general game logic from index.js
 // rules of game
 const rules = 'Find the greatest common divisor of given numbers.';
 
-// GCD count function
+// check
 const gcdCount = (number1, number2) => {
   while (number1 !== number2) {
     if (number1 > number2) {
