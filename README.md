@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/ivanbogdv/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/03eeaced7a70793572b4/maintainability" /></a>
 
-<h1 align ="center"> Welcome to the Brain Games!</h1>
+<h1 align ="center">Welcome to the Brain Games!</h1>
 
 <h2>Description</h2>
 <p>Ready for some brain games?</p>
@@ -14,19 +14,19 @@
 <p>Just type in the name of the game you want:</p>
 <ul>
   <li>
-  <p><b>Brain-prime</p><b>
+  <p>Brain-prime</p>
   </li>
   <li>
-  <p><b>Brain-even</p><b>
+  <p>Brain-even</p>
   </li>
     <li>
-  <p><b>Brain-progression</p><b>
+  <p>Brain-progression</p>
   </li>
     <li>
-  <p><b>Brain-gcd</p><b>
+  <p>Brain-gcd</p>
   </li>
     <li>
-  <p><b>Brain-calc</p><b>
+  <p>Brain-calc</p>
   </li>
 </ul>
 
