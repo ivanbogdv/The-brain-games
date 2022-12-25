@@ -7,8 +7,8 @@ const rules = 'What is the result of the expression?';
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber1 = randomNumbers(10);
-  const randomNumber2 = randomNumbers(10);
+  const randomNumber1 = randomNumbers(0, 10);
+  const randomNumber2 = randomNumbers(0, 10);
 
   const singArr = ['+', '-', '*'];
   const randArr = Math.floor(Math.random() * singArr.length);

@@ -19,8 +19,8 @@ const gcdCount = (number1, number2) => {
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber1 = randomNumbers(20);
-  const randomNumber2 = randomNumbers(20);
+  const randomNumber1 = randomNumbers(1, 20);
+  const randomNumber2 = randomNumbers(1, 20);
 
   // task
   const task = `${randomNumber1} ${randomNumber2}`;

@@ -7,7 +7,7 @@ const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber = randomNumbers(100);
+  const randomNumber = randomNumbers(0, 100);
 
   // task
   const task = `${randomNumber}`;

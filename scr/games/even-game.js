@@ -7,7 +7,7 @@ const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const randomNumber = randomNumbers(20);
+  const randomNumber = randomNumbers(0, 20);
 
   // task
   const task = `${randomNumber}`;
