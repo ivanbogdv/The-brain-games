@@ -7,7 +7,7 @@
 
 # Description
 Ready for some brain games?
-Five fascinating games await you. It won't be easy.
+Five fascinating games await you. It won't be easy!
 
 ## Instructions
 You need a console to play games.

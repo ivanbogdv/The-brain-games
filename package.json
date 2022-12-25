@@ -32,7 +32,7 @@
   "homepage": "https://github.com/ivanbogdv/frontend-project-44#readme",
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
-    "readline-sync": "github:anseki/readline-sync"
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^8.29.0",
