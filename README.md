@@ -11,7 +11,7 @@ Five fascinating games await you. It won't be easy!
 
 ## Instructions
 You need a console to play games.
-Just type in the name of the game you want:
+Just type the name of the game you want:
 
 + Brain-prime
 + Brain-even
