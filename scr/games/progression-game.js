@@ -19,12 +19,12 @@ const randomArr = (startNumber, step, length) => {
 // task and answer
 const taskAndAnswer = () => {
   // random const
-  const startNumber = randomNumbers(0, 100);
-  const step = randomNumbers(0, 5);
+  const startNumber = randomNumbers(1, 100);
+  const step = randomNumbers(1, 5);
   const length = 10;
 
   const arrNumbers = randomArr(startNumber, step, length);
-  const skipNumber = randomNumbers(0, arrNumbers.length);
+  const skipNumber = randomNumbers(1, arrNumbers.length);
 
   // const correctAnswer
   const correctAnswer = String(arrNumbers[skipNumber]);
