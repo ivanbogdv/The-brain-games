@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import randomNumbers from '../random_numbers.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 

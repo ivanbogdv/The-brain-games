@@ -30,4 +30,3 @@ const generalGameLogic = (rules, taskAndAnswer) => {
 };
 
 export default generalGameLogic;
-
