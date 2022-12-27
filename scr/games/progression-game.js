@@ -24,7 +24,7 @@ const taskAndAnswer = () => {
   const length = 10;
 
   const arrNumbers = randomArr(startNumber, step, length);
-  const skipNumber = randomNumbers(1, arrNumbers.length);
+  const skipNumber = randomNumbers(1, arrNumbers.length - 1);
 
   // const correctAnswer
   const correctAnswer = String(arrNumbers[skipNumber]);
