@@ -17,7 +17,7 @@ const description = 'Answer "yes" if given number is prime. Otherwise answer "no
 // task and answer
 const getAnswerAndQuestion = () => {
   // random const
-  const randomNumber = randomNumbers(0, 100);
+  const randomNumber = randomNumbers(0, 80);
 
   // task
   const task = `${randomNumber}`;
