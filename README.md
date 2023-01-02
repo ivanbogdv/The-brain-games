@@ -10,17 +10,22 @@ Ready for some brain games?
 Five fascinating games await you. It won't be easy.
 
 ## Install
-make install
+```bash
+git clone git@github.com:ivanbogdv/frontend-project-44.git
+make install 
+make lint 
+```
 
 ## Instructions
 You need a console to play games.
 Just type the name of the game you want:
-
+```bash
 + Brain-prime
 + Brain-even
 + Brain-progression
 + Brain-gcd
 + Brain-calc
+```
 
 ### Brain-prime
 
