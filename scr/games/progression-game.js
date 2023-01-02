@@ -40,3 +40,4 @@ const getAnswerAndQuestion = () => {
 export default () => {
   generalGameLogic(description, getAnswerAndQuestion);
 };
+
