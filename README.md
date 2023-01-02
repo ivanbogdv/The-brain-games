@@ -9,6 +9,9 @@
 Ready for some brain games?
 Five fascinating games await you. It won't be easy.
 
+## Install
+make install
+
 ## Instructions
 You need a console to play games.
 Just type the name of the game you want:
