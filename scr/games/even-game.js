@@ -8,8 +8,6 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 const evenNumber = (number) => {
   if (number % 2 === 0) {
     return true;
-  } else {
-    return false;
   }
 };
 
