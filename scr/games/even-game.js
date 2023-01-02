@@ -1,19 +1,23 @@
 import randomNumbers from '../random_numbers.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
-// rules of game
-const rules = 'Answer "yes" if the number is even, otherwise answer "no"';
+// description of game
+const description = 'Answer "yes" if the number is even, otherwise answer "no"';
+
+ // check
+ const evenNumber = (number) => {
+  if (number % 2 === 0) {
+    return true;
+  } else false;
+};
 
 // task and answer
-const taskAndAnswer = () => {
+const getAnswerAndQuestion = () => {
   // random const
   const randomNumber = randomNumbers(0, 20);
 
   // task
   const task = `${randomNumber}`;
-
-  // check
-  const evenNumber = () => (randomNumber % 2 === 0);
 
   // answer
   const correctAnswer = evenNumber(randomNumber) ? 'yes' : 'no';
@@ -23,5 +27,5 @@ const taskAndAnswer = () => {
 
 // export general game logic from index.js
 export default () => {
-  generalGameLogic(rules, taskAndAnswer);
+  generalGameLogic(description, getAnswerAndQuestion);
 };

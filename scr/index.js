@@ -1,18 +1,18 @@
 #!/usr/scr/env node
 import readlineSync from 'readline-sync';
 
-const generalGameLogic = (rules, taskAndAnswer) => {
+const generalGameLogic = (description, getAnswerAndQuestion) => {
 // welcome greetings, user name
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 
-  // rules of game
-  console.log(rules);
+  // description of game
+  console.log(description);
 
   // game cycle
   for (let i = 1; i <= 3; i += 1) {
-    const [task, correctAnswer] = taskAndAnswer();
+    const [task, correctAnswer] = getAnswerAndQuestion();
     console.log(`Question: ${task}`);
 
     // user's answer

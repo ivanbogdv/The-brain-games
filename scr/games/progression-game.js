@@ -1,11 +1,11 @@
 import randomNumbers from '../random_numbers.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
-// rules of game
-const rules = 'What number is missing in the progression?';
+// description of game
+const description = 'What number is missing in the progression?';
 
-// random arrey
-const randomArr = (startNumber, step, length) => {
+// check
+const getProgression = (startNumber, step, length) => {
   const arr = [];
   let number = startNumber;
 
@@ -17,13 +17,13 @@ const randomArr = (startNumber, step, length) => {
 };
 
 // task and answer
-const taskAndAnswer = () => {
+const getAnswerAndQuestion = () => {
   // random const
   const startNumber = randomNumbers(1, 100);
   const step = randomNumbers(1, 5);
   const length = 10;
 
-  const arrNumbers = randomArr(startNumber, step, length);
+  const arrNumbers = getProgression(startNumber, step, length);
   const skipNumber = randomNumbers(1, arrNumbers.length - 1);
 
   // const correctAnswer
@@ -38,5 +38,5 @@ const taskAndAnswer = () => {
 
 // export general game logic from index.js
 export default () => {
-  generalGameLogic(rules, taskAndAnswer);
+  generalGameLogic(description, getAnswerAndQuestion);
 };

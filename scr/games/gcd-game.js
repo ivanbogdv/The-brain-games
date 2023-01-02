@@ -2,8 +2,8 @@
 import randomNumbers from '../random_numbers.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
-// rules of game
-const rules = 'Find the greatest common divisor of given numbers.';
+// description of game
+const description = 'Find the greatest common divisor of given numbers.';
 
 // check
 const gcdCount = (number1, number2) => {
@@ -18,7 +18,7 @@ const gcdCount = (number1, number2) => {
 };
 
 // task and answer
-const taskAndAnswer = () => {
+const getAnswerAndQuestion = () => {
   // random const
   const randomNumber1 = randomNumbers(1, 20);
   const randomNumber2 = randomNumbers(1, 20);
@@ -34,5 +34,5 @@ const taskAndAnswer = () => {
 
 // export general game logic from index.js
 export default () => {
-  generalGameLogic(rules, taskAndAnswer);
+  generalGameLogic(description, getAnswerAndQuestion);
 };
