@@ -6,9 +6,11 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 // check
 const evenNumber = (number) => {
+  let result = '';
   if (number % 2 === 0) {
-    return true;
+    result = true;
   }
+  return result;
 };
 
 // task and answer
