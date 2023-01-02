@@ -20,11 +20,11 @@ make lint
 You need a console to play games.
 Just type the name of the game you want:
 ```bash
-+ Brain-prime
-+ Brain-even
-+ Brain-progression
-+ Brain-gcd
-+ Brain-calc
+Brain-prime
+Brain-even
+Brain-progression
+Brain-gcd
+Brain-calc
 ```
 
 ### Brain-prime
