@@ -24,8 +24,7 @@ const getAnswerAndQuestion = () => {
 
   // answer
   const correctAnswer = primeCount(randomNumber) ? 'yes' : 'no';
-
-  return [task, correctAnswer];
+   return [task, correctAnswer];
 };
 // export general game logic from index.js
 export default () => {
