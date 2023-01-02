@@ -4,8 +4,8 @@ import generalGameLogic from '../index.js'; // general game logic from index.js
 // description of game
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
- // check
- const primeCount = (number) => {
+// check
+const primeCount = (number) => {
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
       return false;
@@ -24,7 +24,7 @@ const getAnswerAndQuestion = () => {
 
   // answer
   const correctAnswer = primeCount(randomNumber) ? 'yes' : 'no';
-   return [task, correctAnswer];
+  return [task, correctAnswer];
 };
 // export general game logic from index.js
 export default () => {

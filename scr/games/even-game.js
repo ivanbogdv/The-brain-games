@@ -4,10 +4,10 @@ import generalGameLogic from '../index.js'; // general game logic from index.js
 // description of game
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
- // check
- const evenNumber = (number) => {
+// check
+const evenNumber = (number) => {
   if (number % 2 === 0) {
-    return true;
+  return true;
   } else false;
 };
 
