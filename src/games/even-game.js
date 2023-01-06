@@ -9,7 +9,6 @@ const isEven = (number) => number % 2 === 0;
 
 // task and answer
 const getAnswerAndQuestion = () => {
-
   // task
   const task = randomNumbers(2, 30);
 
