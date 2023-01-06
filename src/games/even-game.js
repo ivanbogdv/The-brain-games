@@ -11,7 +11,7 @@ const isEven = (number) => number % 2 === 0;
 const getAnswerAndQuestion = () => {
 
   // task
-  const task = randomNumbers(0, 30);
+  const task = randomNumbers(2, 30);
 
   // answer
   const correctAnswer = isEven(task) ? 'yes' : 'no';
