@@ -16,14 +16,11 @@ const isPrime = (number) => {
 
 // task and answer
 const getAnswerAndQuestion = () => {
-  // random const
-  const randomNumber = randomNumbers(0, 80);
-
   // task
-  const task = `${randomNumber}`;
+  const task = randomNumbers(0, 20);
 
   // answer
-  const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
+  const correctAnswer = isPrime(task) ? 'yes' : 'no';
   return [task, correctAnswer];
 };
 // export general game logic from index.js
