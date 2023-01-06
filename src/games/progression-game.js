@@ -6,7 +6,7 @@ const description = 'What number is missing in the progression?';
 const length = 10;
 
 // check
-const getProgression = (startNumber, step, length) => {
+const getProgression = (startNumber, step) => {
   const arr = [];
   let number = startNumber;
 

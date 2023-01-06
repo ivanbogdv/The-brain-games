@@ -5,7 +5,7 @@ import generalGameLogic from '../index.js'; // general game logic from index.js
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 // check
-const isEven = number => number % 2 === 0;
+const isEven = (number) => number % 2 === 0;
 
 // task and answer
 const getAnswerAndQuestion = () => {
