@@ -1,12 +1,12 @@
 /* eslint-disable no-param-reassign */
-import randomNumbers from '../random_numbers.js'; // import random numbers
+import randomNumbers from '../helper.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
 // description of game
 const description = 'Find the greatest common divisor of given numbers.';
 
 // check
-const gcdCount = (number1, number2) => {
+const getGcd = (number1, number2) => {
   while (number1 !== number2) {
     if (number1 > number2) {
       number1 -= number2;
@@ -27,7 +27,7 @@ const getAnswerAndQuestion = () => {
   const task = `${randomNumber1} ${randomNumber2}`;
 
   // answer
-  const correctAnswer = String(gcdCount(randomNumber1, randomNumber2));
+  const correctAnswer = String(getGcd(randomNumber1, randomNumber2));
 
   return [task, correctAnswer];
 };

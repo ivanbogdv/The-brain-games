@@ -14,7 +14,7 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js",
-    "index": "scr/index.js"
+    "index": "src/index.js"
   },
   "repository": {
     "type": "git",

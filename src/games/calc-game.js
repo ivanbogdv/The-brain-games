@@ -1,4 +1,4 @@
-import randomNumbers from '../random_numbers.js'; // import random numbers
+import randomNumbers from '../helper.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
 // description of game

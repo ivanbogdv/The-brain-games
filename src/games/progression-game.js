@@ -1,8 +1,9 @@
-import randomNumbers from '../random_numbers.js'; // import random numbers
+import randomNumbers from '../helper.js'; // import random numbers
 import generalGameLogic from '../index.js'; // general game logic from index.js
 
 // description of game
 const description = 'What number is missing in the progression?';
+const length = 10;
 
 // check
 const getProgression = (startNumber, step, length) => {
@@ -21,7 +22,6 @@ const getAnswerAndQuestion = () => {
   // random const
   const startNumber = randomNumbers(1, 100);
   const step = randomNumbers(1, 5);
-  const length = 10;
 
   const arrNumbers = getProgression(startNumber, step, length);
   const skipNumber = randomNumbers(1, arrNumbers.length - 1);

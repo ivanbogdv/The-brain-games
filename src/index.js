@@ -1,4 +1,4 @@
-#!/usr/scr/env node
+#!/usr/src/env node
 import readlineSync from 'readline-sync';
 
 const generalGameLogic = (description, getAnswerAndQuestion) => {
