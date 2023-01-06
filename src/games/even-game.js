@@ -9,14 +9,12 @@ const isEven = (number) => number % 2 === 0;
 
 // task and answer
 const getAnswerAndQuestion = () => {
-  // random const
-  const randomNumber = randomNumbers(0, 30);
 
   // task
-  const task = `${randomNumber}`;
+  const task = randomNumbers(0, 30);
 
   // answer
-  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+  const correctAnswer = isEven(task) ? 'yes' : 'no';
 
   return [task, correctAnswer];
 };
