@@ -5,18 +5,18 @@
 
 # Welcome to the Brain Games!
 
-# Description
+### Description
 Ready for some brain games?
 Five fascinating games await you. It won't be easy.
 
-## Install
+### Install
 ```bash
 git clone git@github.com:ivanbogdv/The-brain-games.git
 make install 
 make lint 
 ```
 
-## Instructions
+### Instructions
 You need a console to play games.
 Just type the name of the game you want:
 ```bash
