@@ -11,7 +11,7 @@ Five fascinating games await you. It won't be easy.
 
 ## Install
 ```bash
-git clone git@github.com:ivanbogdv/frontend-project-44.git
+git clone git@github.com:ivanbogdv/The-brain-games.git
 make install 
 make lint 
 ```
