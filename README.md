@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/ivanbogdv/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/03eeaced7a70793572b4/maintainability" /></a>
 
 # Welcome to the Brain Games!
-<img src="logo.png" width="80">
+<img src="./assets/logo.png" width="80">
 
 ### Description
 Ready for some brain games?
